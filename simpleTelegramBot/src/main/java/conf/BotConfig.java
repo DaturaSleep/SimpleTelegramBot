@@ -44,7 +44,7 @@ public class BotConfig {
 	@Autowired
 	public BoonkerBot boonkerBot() {
 		BoonkerBot bot = new BoonkerBot();
-		bot.setBotToken("744010929:AAFpTulxLK-sSw5r-Y4gtOF7_Qx1-ImJTl0");
+		bot.setBotToken("yourBotToken");
 		bot.setBotUsername("BoonkerBot");
 		return bot;
 	}
@@ -56,7 +56,7 @@ public class BotConfig {
 		dataSource.setUrl(
 				"jdbc:mysql://localhost/telegramBoonkerBot?useLegacyDatetimeCode=false&serverTimezone=Australia/Sydney&allowPublicKeyRetrieval=true&useSSL=false");
 		dataSource.setUsername("root");
-		dataSource.setPassword("#My_SQL_Password228");
+		dataSource.setPassword("Your DB password");
 		return dataSource;
 	}
 
