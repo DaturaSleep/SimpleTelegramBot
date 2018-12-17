@@ -2,7 +2,7 @@ package bi;
 
 import java.util.List;
 
-public interface DAO<T,R> {
+public interface DAO<T> {
 	public T getOne(long id);
 
 	public List<T> getAll(String table);
